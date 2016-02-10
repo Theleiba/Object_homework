@@ -19,10 +19,36 @@
       <class Id="f15a103b-47a8-4655-90e4-e2fa7cac1336" name="Opiskelija" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="294b1a36-0bd1-4f81-9b52-437106cd9bf8" />
         <ownedAttributesInternal>
-          <property Id="2ae0b73b-d512-46c0-92a6-4d65f0756962" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="2ae0b73b-d512-46c0-92a6-4d65f0756962" name="Nimi" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="04b82060-7e86-45e7-a449-57a0d7ca85f5" />
           </property>
+          <property Id="301ff344-1543-42cd-8563-7662d18cef50" name="Opiskelijatunnus" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e5f88a6d-a54f-4a7d-ba7b-8c798ec5b32e" />
+          </property>
+          <property Id="f133b9d0-db65-46f8-b559-e8a979c960e2" name="Opintovuosi" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4446e12e-0cd2-46f9-8651-06f78f2ddd1e" />
+          </property>
+          <property Id="452c7748-04ee-4b69-b318-963ec77828f3" name="Ikä" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e8e63d4d-a1ec-4234-90ea-0dd54ec88a5b" />
+          </property>
+          <property Id="44b6e102-4054-45a1-b19d-cc7f4b205238" name="Stressitaso" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="64221884-02b1-452b-8b02-b7b8ececfa6e" />
+          </property>
+          <property Id="abadde7a-31a9-4b5b-978d-0d1ab8146ee7" name="Sukupuoli" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6effdbb1-e5f8-4d2e-b3cf-b23dea8fff22" />
+          </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="5288d007-4232-4858-b0e9-c13af7a902ee" name="Opiskelu" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bcfc518e-31b3-44d5-af50-391d0cf90ec6" />
+          </operation>
+          <operation Id="9b788145-cca6-4b6d-bbd9-85bf86f26e60" name="Masentuminen" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f2b43f38-ce18-4b7a-80ab-73f22ee7e6c1" />
+          </operation>
+          <operation Id="20e9456f-c428-40ec-839b-b01df5101221" name="Kännäys" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="34eb9d6c-343d-41c9-8458-202d714d08b3" />
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
   </packagedElements>
