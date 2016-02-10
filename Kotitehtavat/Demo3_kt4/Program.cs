@@ -32,6 +32,13 @@ namespace Demo3_kt4
             car.Tyres = 4;
             car.PrintData();
             Console.WriteLine(car.ToString());
+
+            Vehicle ufo = new Vehicle();
+            ufo.Name = "UFO";
+            ufo.Speed = 78993864;
+            ufo.Tyres = 3;
+            ufo.PrintData();
+            Console.WriteLine(ufo.ToString());
         }
     }
 }

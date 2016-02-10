@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="07ad21d3-6eb6-45a8-bac8-d85e80b19493" name="Demo3_kt5" linkedPackageId="b043e388-0abf-4d8c-8697-43729088286f" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="cfc175ff-c1b4-4b27-a609-7f3b160601bb">
+      <profileInstance Id="b294794d-147d-4b85-9266-151586851968" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="21335852-1aeb-41d3-938b-846a937d0bc4">
+      <profileInstance Id="5ed7b339-a9b9-42a6-9a82-d3f2437a16c1" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f15a103b-47a8-4655-90e4-e2fa7cac1336" name="Opiskelija" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="294b1a36-0bd1-4f81-9b52-437106cd9bf8" />
+        <ownedAttributesInternal>
+          <property Id="2ae0b73b-d512-46c0-92a6-4d65f0756962" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="04b82060-7e86-45e7-a449-57a0d7ca85f5" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="b043e388-0abf-4d8c-8697-43729088286f" name="Demo3_kt5UML">
+    <elementDefinition Id="98675185-4948-4cf9-9a63-d23ae1d243cb" />
+  </package>
+</logicalClassDesignerModel>
