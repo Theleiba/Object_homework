@@ -18,7 +18,7 @@ namespace Demo3_kt4
 
         public override string ToString()
         {
-            return String.Format("Name: {0} Speed: {1} Tyles: {2}", Name, Speed, Tyres);
+            return String.Format("Name: {0} Speed: {1} Tyres: {2}", Name, Speed, Tyres);
         }
     }
     class Program
