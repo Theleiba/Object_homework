@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="5f3a0ea7-c39f-4e52-888b-7504583714d0" name="Demo3_kt6UML" linkedPackageId="83bff031-5649-4928-a50c-6aaccbbce7ba" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="8f8a85a9-c8af-4135-9427-5b35f29d0270">
+      <profileInstance Id="868c4517-23a5-4644-9e46-677292a94812" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="4b6639e2-95db-4a95-9efa-a8a328a34346">
+      <profileInstance Id="ab586813-2cba-4c7d-a335-22d6fad8dce4" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c10dbdc0-5659-44eb-b11e-b7546b805b77" name="Toaster" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5c7ded84-0c77-440b-bfbc-5a11cd48d6a9" />
+        <ownedAttributesInternal>
+          <property Id="acd718fb-3ecd-4a61-bdd2-d3bd038202e0" name="Color" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e0589e45-ed3f-4987-8153-05f18a8166d4" />
+          </property>
+          <property Id="9e9d5146-91d0-4711-bc15-ffb36ca6b1c1" name="Weight" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ed061e7b-9fd2-460d-a83e-b4a558c4e1a0" />
+          </property>
+          <property Id="0d7560fe-e95f-4104-8a7a-dc9bb0f9d2f6" name="Price" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c3f5df20-de1e-4079-acc3-1648e133ad5a" />
+          </property>
+          <property Id="bc269d3a-afab-4fae-aba0-696a6d0f5713" name="Warranty" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3970f609-d37f-4878-ab38-835ea7a8fc9d" />
+          </property>
+          <property Id="f5470ff9-7c10-4682-bda4-b97ce9ecebdb" name="Brand" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0cb15a60-551c-4d63-888e-7e6e62ad160a" />
+          </property>
+          <property Id="d65cd85f-31f2-4c1f-8ab1-eeb2a2fb1ac8" name="Bread slots" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7b884068-c969-41ee-8536-37250691012a" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="9f55b21c-7c8a-42e4-8547-0c9b034dbc2c" name="Power ON/OFF" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d0e4b62d-9b61-4912-8c7f-cdeb673ad448" />
+          </operation>
+          <operation Id="7f5c9bbb-3d6e-4e6f-a33d-63c508481df7" name="Heat control" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="87e94b7f-9269-4b3b-9916-6c3dc2c41fc9" />
+          </operation>
+          <operation Id="c89689c8-0453-4306-b011-fb90521a4e4c" name="Timer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="aa2446ab-d393-4dda-af52-1d1ef80ad606" />
+          </operation>
+          <operation Id="46f8d866-fe0f-461b-ac51-0086ff3c1a29" name="Bread slotin nostattaja" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="848e058e-3e05-48e2-96fa-36d05c6c07c2" />
+          </operation>
+          <operation Id="27ef0a49-8abc-4e76-89cb-9791abeb7397" name="Nämä mahdollisesti omiin ruutuihin?" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cbda05df-2c4c-420d-bbf6-11774a48fe98" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="83bff031-5649-4928-a50c-6aaccbbce7ba" name="Demo3_kt6UML">
+    <elementDefinition Id="e7d882a0-54a8-4065-af58-759772bf393d" />
+  </package>
+</logicalClassDesignerModel>
