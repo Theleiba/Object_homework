@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="5f3a0ea7-c39f-4e52-888b-7504583714d0" name="Demo3_kt6UML" linkedPackageId="83bff031-5649-4928-a50c-6aaccbbce7ba" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="8f8a85a9-c8af-4135-9427-5b35f29d0270">
-      <profileInstance Id="868c4517-23a5-4644-9e46-677292a94812" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="4b6639e2-95db-4a95-9efa-a8a328a34346">
-      <profileInstance Id="ab586813-2cba-4c7d-a335-22d6fad8dce4" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="c10dbdc0-5659-44eb-b11e-b7546b805b77" name="Toaster" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -21,21 +7,39 @@
         <ownedAttributesInternal>
           <property Id="acd718fb-3ecd-4a61-bdd2-d3bd038202e0" name="Color" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="e0589e45-ed3f-4987-8153-05f18a8166d4" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3ba93030-90f0-450f-aed8-27db81e747ef" LastKnownName="string" />
+            </type_NamedElement>
           </property>
           <property Id="9e9d5146-91d0-4711-bc15-ffb36ca6b1c1" name="Weight" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="ed061e7b-9fd2-460d-a83e-b4a558c4e1a0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="93acad5c-3ac2-460f-9390-32bde449cfca" LastKnownName="double" />
+            </type_NamedElement>
           </property>
           <property Id="0d7560fe-e95f-4104-8a7a-dc9bb0f9d2f6" name="Price" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="c3f5df20-de1e-4079-acc3-1648e133ad5a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="93acad5c-3ac2-460f-9390-32bde449cfca" LastKnownName="double" />
+            </type_NamedElement>
           </property>
           <property Id="bc269d3a-afab-4fae-aba0-696a6d0f5713" name="Warranty" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="3970f609-d37f-4878-ab38-835ea7a8fc9d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a8da3046-f7f7-4319-b650-9a8a46e26fa1" LastKnownName="double (years)" />
+            </type_NamedElement>
           </property>
           <property Id="f5470ff9-7c10-4682-bda4-b97ce9ecebdb" name="Brand" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="0cb15a60-551c-4d63-888e-7e6e62ad160a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3ba93030-90f0-450f-aed8-27db81e747ef" LastKnownName="string" />
+            </type_NamedElement>
           </property>
           <property Id="d65cd85f-31f2-4c1f-8ab1-eeb2a2fb1ac8" name="Bread slots" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="7b884068-c969-41ee-8536-37250691012a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c178f668-ef1e-474e-b039-67a718dda6df" LastKnownName="int" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
@@ -54,11 +58,121 @@
           <operation Id="27ef0a49-8abc-4e76-89cb-9791abeb7397" name="Nämä mahdollisesti omiin ruutuihin?" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="cbda05df-2c4c-420d-bbf6-11774a48fe98" />
           </operation>
+          <operation Id="6dffc923-bcbf-4ae4-ac7a-0db484bd9ed2" name="Daquanize" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="08d57958-e718-4f85-b8f7-0aefe83f9bcb" />
+          </operation>
         </ownedOperationsInternal>
       </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="93acad5c-3ac2-460f-9390-32bde449cfca" name="double" isAbstract="false" isLeaf="false" cachedFullName="double">
+        <elementDefinition Id="b3c1a066-07a0-4fa0-8558-a50a42e80432" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3ba93030-90f0-450f-aed8-27db81e747ef" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="939015b3-a2e7-4935-b408-33568ff839c7" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c178f668-ef1e-474e-b039-67a718dda6df" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="e69c8212-59ec-45db-9247-d82db61434b7" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="a8da3046-f7f7-4319-b650-9a8a46e26fa1" name="double (years)" isAbstract="false" isLeaf="false" cachedFullName="double (years)">
+        <elementDefinition Id="71552003-1771-4ed1-b6aa-df95185cd822" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="526cb2b2-e624-4c4f-9896-fa18674445bf" name="Nostomekanismi" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e18b3ba2-9641-4963-92e4-3a5cc9325266" />
+        <suppliersInternal>
+          <dependency Id="1fa5207c-13d0-4aa1-94dc-41fd07178cc6">
+            <interfaceMoniker Id="fc56a30f-865b-4a99-8e9a-a1c3f2a83ae6" LastKnownName="Interface1" />
+            <elementDefinition Id="91983bde-5631-48a9-b40a-f6bd6aa92054" />
+          </dependency>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="3a5df384-ba75-4db8-a205-27b8e6656cb9" isSubstitutable="false">
+            <classMoniker Id="c10dbdc0-5659-44eb-b11e-b7546b805b77" LastKnownName="Toaster" />
+            <elementDefinition Id="0c3b067d-92ce-4737-9c02-eeed0f84cc84" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="ed736dea-b6d3-405c-936f-bb9573aa58d5" name="Nostaja" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="acfc2096-7c95-489a-b8b5-b2632f9e83fd" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5d4ff754-da6a-495a-98f6-c00376269e7e" LastKnownName="bool" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="da56f568-d673-4a4b-ad01-1d32f2d038d5" name="Power (aka heat)" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3094ffed-ba18-45eb-8a18-3c2a5a85e526" />
+        <suppliersInternal>
+          <dependency Id="8f9c0a20-12c4-411d-a2fc-1ff5f973a2d3">
+            <interfaceMoniker Id="fc56a30f-865b-4a99-8e9a-a1c3f2a83ae6" LastKnownName="Interface1" />
+            <elementDefinition Id="366cf166-74af-4293-9852-f23ff0a3f7bc" />
+          </dependency>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="6a5e2eb6-e366-41b9-8399-ed8a9c62927b" isSubstitutable="false">
+            <classMoniker Id="c10dbdc0-5659-44eb-b11e-b7546b805b77" LastKnownName="Toaster" />
+            <elementDefinition Id="52b3b026-e5bb-498a-bf2a-0d73835485db" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="10bdbd10-bfa0-429e-8c03-51a06ed9d376" name="power" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b1e347a6-4d33-4ea4-abf3-7389905724e7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5d4ff754-da6a-495a-98f6-c00376269e7e" LastKnownName="bool" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="5d4ff754-da6a-495a-98f6-c00376269e7e" name="bool" isAbstract="false" isLeaf="false" cachedFullName="bool">
+        <elementDefinition Id="7428ef9c-5554-4ee7-be7c-b87a955afc2d" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="fc56a30f-865b-4a99-8e9a-a1c3f2a83ae6" name="Interface1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8f636edf-948c-4ff2-ae0b-e746bc8f14a5" />
+        <ownedAttributes>
+          <property Id="bd15b197-00a7-4c68-bfd6-41208496ae73" name="Ajastin" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c5b32369-d20e-4702-934c-317ae499778e" />
+          </property>
+          <property Id="7c076f28-626c-45e3-9ed7-02132d3e9592" name="On/Off nappi" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1574f524-2257-48e5-b245-a5ef690838a4" />
+          </property>
+        </ownedAttributes>
+        <ownedOperations>
+          <operation Id="cf155073-f9e2-4fed-ba18-611fc7716545" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="930af46e-6505-4a2b-8078-752446cd50ff" />
+          </operation>
+        </ownedOperations>
+      </Interface>
     </logicalClassDesignerModelHasTypes>
   </packagedElements>
   <package Id="83bff031-5649-4928-a50c-6aaccbbce7ba" name="Demo3_kt6UML">
     <elementDefinition Id="e7d882a0-54a8-4065-af58-759772bf393d" />
+    <profileInstances>
+      <packageHasProfileInstances Id="8f8a85a9-c8af-4135-9427-5b35f29d0270">
+        <profileInstance Id="868c4517-23a5-4644-9e46-677292a94812" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="4b6639e2-95db-4a95-9efa-a8a328a34346">
+        <profileInstance Id="ab586813-2cba-4c7d-a335-22d6fad8dce4" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>
