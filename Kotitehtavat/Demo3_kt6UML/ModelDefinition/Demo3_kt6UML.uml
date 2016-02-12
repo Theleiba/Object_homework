@@ -239,7 +239,7 @@
             isAbstract="false">
             <interfaceMoniker
               Id="8f636edf-948c-4ff2-ae0b-e746bc8f14a5"
-              LastKnownName="Interface1"
+              LastKnownName="IVipu"
               LastKnownLocation="Demo3_kt6UML.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -348,7 +348,7 @@
             isAbstract="false">
             <interfaceMoniker
               Id="8f636edf-948c-4ff2-ae0b-e746bc8f14a5"
-              LastKnownName="Interface1"
+              LastKnownName="IVipu"
               LastKnownLocation="Demo3_kt6UML.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -409,21 +409,10 @@
     <packageHasNamedElement>
       <Interface
         Id="8f636edf-948c-4ff2-ae0b-e746bc8f14a5"
-        name="Interface1"
+        name="IVipu"
         isAbstract="false"
         isLeaf="false">
         <ownedAttributes>
-          <property
-            Id="c5b32369-d20e-4702-934c-317ae499778e"
-            name="Ajastin"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
           <property
             Id="1574f524-2257-48e5-b245-a5ef690838a4"
             name="On/Off nappi"
@@ -446,6 +435,81 @@
             isQuery="false" />
         </ownedOperations>
       </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="83e4faa2-a7ff-423e-bc35-4ff65518d790"
+        name="IAjastinrulla"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="10db8ded-2a32-480f-957e-8a0535f337ae"
+        name="Ajastin"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="62279a99-cc3c-48f6-8a5c-8d91c7e27485"
+            isSubstitutable="false">
+            <classMoniker
+              Id="5c7ded84-0c77-440b-bfbc-5a11cd48d6a9"
+              LastKnownName="Toaster"
+              LastKnownLocation="Demo3_kt6UML.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="6a14f6e3-ed4f-4c94-acc1-75df8a484ccb"
+            isDerived="false"
+            sourceEndRoleName="Ajastin"
+            targetEndRoleName="IAjastinrulla"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="83e4faa2-a7ff-423e-bc35-4ff65518d790"
+              LastKnownName="IAjastinrulla"
+              LastKnownLocation="Demo3_kt6UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="645bd885-9dd3-4643-aede-cc3e576c4e9f"
+                  name="Ajastin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a10d57b8-8e7d-4285-a15e-7ce5dba539ee"
+                  name="IAjastinrulla"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c717f98c-de61-4da8-a72c-40e6864b01e1"
+        name="lel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
