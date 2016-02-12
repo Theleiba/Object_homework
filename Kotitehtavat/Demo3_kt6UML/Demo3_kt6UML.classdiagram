@@ -87,18 +87,30 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="526cb2b2-e624-4c4f-9896-fa18674445bf" name="Nostomekanismi" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="e18b3ba2-9641-4963-92e4-3a5cc9325266" />
-        <suppliersInternal>
-          <dependency Id="1fa5207c-13d0-4aa1-94dc-41fd07178cc6">
-            <interfaceMoniker Id="fc56a30f-865b-4a99-8e9a-a1c3f2a83ae6" LastKnownName="Interface1" />
-            <elementDefinition Id="91983bde-5631-48a9-b40a-f6bd6aa92054" />
-          </dependency>
-        </suppliersInternal>
         <generalsInternal>
           <generalization Id="3a5df384-ba75-4db8-a205-27b8e6656cb9" isSubstitutable="false">
             <classMoniker Id="c10dbdc0-5659-44eb-b11e-b7546b805b77" LastKnownName="Toaster" />
             <elementDefinition Id="0c3b067d-92ce-4737-9c02-eeed0f84cc84" />
           </generalization>
         </generalsInternal>
+        <targetEnds>
+          <association Id="57e602d2-2768-42db-9861-9dab27fb52a6" isDerived="false" sourceEndRoleName="Nostomekanismi" targetEndRoleName="Interface1" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="fc56a30f-865b-4a99-8e9a-a1c3f2a83ae6" LastKnownName="Interface1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="df8a1ef5-49f2-43f7-86b4-d7bf7bb63e5b" name="Nostomekanismi" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cd247df8-cd83-4f4d-9da6-3ecda8db7afb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8aed1e2f-8a9d-447d-970d-03a3188d6294" name="Interface1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cef47143-64d5-4c49-9346-61f4d1349526" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="46f09c43-0040-4546-b087-aa6d176fce7f" />
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property Id="ed736dea-b6d3-405c-936f-bb9573aa58d5" name="Nostaja" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="acfc2096-7c95-489a-b8b5-b2632f9e83fd" />
@@ -112,18 +124,30 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="da56f568-d673-4a4b-ad01-1d32f2d038d5" name="Power (aka heat)" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="3094ffed-ba18-45eb-8a18-3c2a5a85e526" />
-        <suppliersInternal>
-          <dependency Id="8f9c0a20-12c4-411d-a2fc-1ff5f973a2d3">
-            <interfaceMoniker Id="fc56a30f-865b-4a99-8e9a-a1c3f2a83ae6" LastKnownName="Interface1" />
-            <elementDefinition Id="366cf166-74af-4293-9852-f23ff0a3f7bc" />
-          </dependency>
-        </suppliersInternal>
         <generalsInternal>
           <generalization Id="6a5e2eb6-e366-41b9-8399-ed8a9c62927b" isSubstitutable="false">
             <classMoniker Id="c10dbdc0-5659-44eb-b11e-b7546b805b77" LastKnownName="Toaster" />
             <elementDefinition Id="52b3b026-e5bb-498a-bf2a-0d73835485db" />
           </generalization>
         </generalsInternal>
+        <targetEnds>
+          <association Id="746fa9ff-03a0-4e6e-9ea0-12813f92a4ac" isDerived="false" sourceEndRoleName="Power (aka heat)" targetEndRoleName="Interface1" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="fc56a30f-865b-4a99-8e9a-a1c3f2a83ae6" LastKnownName="Interface1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="360a0006-aa36-404a-b063-6dbd922b517e" name="Power (aka heat)" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fd9360c7-7af0-4a5f-9aa8-e37bee22db49" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dd8eb6b4-7af4-4339-a4dc-65585deabcce" name="Interface1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2f0ac2d8-331d-4269-8b4a-343a3d54da2e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="93b61d1e-9911-48fa-b263-4ecc13ab1c3a" />
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property Id="10bdbd10-bfa0-429e-8c03-51a06ed9d376" name="power" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="b1e347a6-4d33-4ea4-abf3-7389905724e7" />

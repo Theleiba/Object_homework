@@ -219,15 +219,6 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
-        <suppliersInternal>
-          <dependency
-            Id="91983bde-5631-48a9-b40a-f6bd6aa92054">
-            <interfaceMoniker
-              Id="8f636edf-948c-4ff2-ae0b-e746bc8f14a5"
-              LastKnownName="Interface1"
-              LastKnownLocation="Demo3_kt6UML.uml" />
-          </dependency>
-        </suppliersInternal>
         <generalsInternal>
           <generalization
             Id="0c3b067d-92ce-4737-9c02-eeed0f84cc84"
@@ -238,6 +229,47 @@
               LastKnownLocation="Demo3_kt6UML.uml" />
           </generalization>
         </generalsInternal>
+        <targetEnds>
+          <association
+            Id="46f09c43-0040-4546-b087-aa6d176fce7f"
+            isDerived="false"
+            sourceEndRoleName="Nostomekanismi"
+            targetEndRoleName="Interface1"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="8f636edf-948c-4ff2-ae0b-e746bc8f14a5"
+              LastKnownName="Interface1"
+              LastKnownLocation="Demo3_kt6UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cd247df8-cd83-4f4d-9da6-3ecda8db7afb"
+                  name="Nostomekanismi"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cef47143-64d5-4c49-9346-61f4d1349526"
+                  name="Interface1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="acfc2096-7c95-489a-b8b5-b2632f9e83fd"
@@ -296,15 +328,6 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
-        <suppliersInternal>
-          <dependency
-            Id="366cf166-74af-4293-9852-f23ff0a3f7bc">
-            <interfaceMoniker
-              Id="8f636edf-948c-4ff2-ae0b-e746bc8f14a5"
-              LastKnownName="Interface1"
-              LastKnownLocation="Demo3_kt6UML.uml" />
-          </dependency>
-        </suppliersInternal>
         <generalsInternal>
           <generalization
             Id="52b3b026-e5bb-498a-bf2a-0d73835485db"
@@ -315,6 +338,47 @@
               LastKnownLocation="Demo3_kt6UML.uml" />
           </generalization>
         </generalsInternal>
+        <targetEnds>
+          <association
+            Id="93b61d1e-9911-48fa-b263-4ecc13ab1c3a"
+            isDerived="false"
+            sourceEndRoleName="Power (aka heat)"
+            targetEndRoleName="Interface1"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="8f636edf-948c-4ff2-ae0b-e746bc8f14a5"
+              LastKnownName="Interface1"
+              LastKnownLocation="Demo3_kt6UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fd9360c7-7af0-4a5f-9aa8-e37bee22db49"
+                  name="Power (aka heat)"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2f0ac2d8-331d-4269-8b4a-343a3d54da2e"
+                  name="Interface1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="b1e347a6-4d33-4ea4-abf3-7389905724e7"
